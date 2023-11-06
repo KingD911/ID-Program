@@ -1,0 +1,13 @@
+@page {
+  size: A4;
+  margin: 1cm;
+}
+
+@media print {
+  body {
+    margin: 0; /* Reset body margin for printing */
+  }
+
+  /* Add any additional print-specific styles here */
+}
+
